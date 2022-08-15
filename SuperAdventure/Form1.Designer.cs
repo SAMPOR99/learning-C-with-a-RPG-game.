@@ -219,6 +219,7 @@
             this.rtbLocation.Size = new System.Drawing.Size(360, 105);
             this.rtbLocation.TabIndex = 18;
             this.rtbLocation.Text = "";
+            this.rtbLocation.TextChanged += new System.EventHandler(this.rtbLocation_TextChanged);
             // 
             // rtbMessages
             // 
